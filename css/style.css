@@ -191,7 +191,7 @@ nav a:hover {
 form {
   display: flex;
   flex-direction: column;
-	margin: 40px 0;
+	margin: 40px auto;
   padding: 5%;
 }
 
@@ -203,7 +203,6 @@ form label, form legend {
 .input-padrao {
 	margin: 0 0 20px;	
 	padding: 10px 25px;	
-	width: 100%;
 }
 
 .checkbox {
