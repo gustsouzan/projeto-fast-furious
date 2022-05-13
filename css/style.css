@@ -243,3 +243,55 @@ form label, form legend {
 	transform:  scale(1.2);
   transform-origin: left;
 }
+
+@media screen and (max-width: 650px){
+  header {
+    height: 350px
+  }
+
+  .content {
+    margin: 0 10%;
+    display: block;
+  } 
+
+  nav {
+    position: relative;
+  }
+
+  header div h1 img {
+    margin: 0 10%;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .content {
+    width: auto;
+  } 
+
+  .principal {
+    width: auto;
+    padding: 0 10px ;
+  }
+
+  .conteudo-participacoes {
+    width: auto;
+    padding: 0 10px ;
+  }
+
+  .lista-participacoes {
+    display: block;
+  }
+
+  .imagem-participacoes {
+    margin: 5% 20% 0;
+  }
+
+  .youtube {
+    width: auto;
+    padding: 0 10px ;
+  }
+
+  .pilotos {
+    width: auto;
+  }
+}
