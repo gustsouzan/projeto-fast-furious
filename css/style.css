@@ -23,12 +23,12 @@ header {
 
 .navbar nav ul {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .navbar nav li{
   flex-grow: 1;
-  margin: 0 0 0 15px;
+  margin: 0 0 15px 0;
   text-align: center;
 }
 
@@ -251,6 +251,14 @@ footer div img {
     align-items: center;
     justify-content: space-between;
   } 
+
+  .navbar nav ul {
+    flex-direction: row;
+  }
+  
+  .navbar nav li{
+    margin: 0 0 0 15px;
+  }
 
   .conteudo-participacoes {
     flex-direction: row;
